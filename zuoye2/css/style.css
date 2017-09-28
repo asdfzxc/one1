@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url(../base/reset.css);
+@import url(../fonts/iconfont.css);
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-family: "微软雅黑"; }
+
+input, button, textarea, select {
+  border: none;
+  outline: none;
+  background: none; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.png) no-repeat;
+  background-size: 100% 100%; }
+
+.tou {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px; }
+  .tou b {
+    font-size: 20px;
+    color: #2cc1ff; }
+  .tou span {
+    margin-left: 10px; }
+
+.center {
+  width: 100%;
+  height: 210px;
+  display: flex; }
+
+.left {
+  width: 150px;
+  height: 210px; }
+  .left .img1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 60px; }
+  .left .img2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px; }
+  .left .img3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 50px; }
+
+.right {
+  width: 200px;
+  height: 210px;
+  color: #fff; }
+  .right h1 {
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 5px; }
+  .right h5 {
+    text-align: right;
+    margin-bottom: 5px; }
+
+.bottom {
+  width: 100%;
+  padding: 0 10%; }
+  .bottom img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+  .bottom span {
+    color: #fff;
+    font-size: 22px; }
+  .bottom .div1 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/6.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    position: relative; }
+    .bottom .div1 .img1 {
+      position: absolute;
+      right: 10px;
+      top: 10px; }
+    .bottom .div1 span {
+      position: absolute;
+      left: 105px;
+      top: 25px; }
+  .bottom .div2 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/3.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    position: relative; }
+    .bottom .div2 .img1 {
+      position: absolute;
+      left: 18px;
+      top: 13px; }
+    .bottom .div2 span {
+      position: absolute;
+      left: 150px;
+      top: 25px; }
+  .bottom .div3 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/6.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    position: relative; }
+    .bottom .div3 .img1 {
+      position: absolute;
+      right: 10px;
+      top: 10px; }
+    .bottom .div3 span {
+      position: absolute;
+      left: 105px;
+      top: 25px; }
+
+/*# sourceMappingURL=style.css.map */
